@@ -12,7 +12,6 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
     <img
       alt="reviews"
       src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews.png"
-      width="60%"
     />
   </kbd>
 </p>
