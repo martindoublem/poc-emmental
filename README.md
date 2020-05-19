@@ -11,13 +11,13 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
   <img
     alt="reviews"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews.png"
-    style="float:left;"
+    style="border: 1px solid black;float:left;"
     width="50%"
   />
   <img
     alt="reviews with keywords"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews_with_keywords.png"
-    style="float:right;"
+    style="border: 1px solid black;float:right;"
     width="50%"
   />
 
@@ -26,16 +26,19 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
   <img
     alt="review"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/review.png"
-    style="float:left;"
+    style="border: 1px solid black;float:left;"
     width="50%"
   />
   <img
-    alt="reviews with keywords"
+    alt="review with appearance"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/review_with_appearance.png"
-    style="float:right;"
+    style="border: 1px solid black;float:right;"
     width="50%"
   />
 
+<div/>
+
+qsdqd
 
 ## Design inspiration
 
