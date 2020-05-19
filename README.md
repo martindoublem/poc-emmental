@@ -21,6 +21,8 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
     width="50%"
   />
 
+---
+
 - A Page template for each review `http://localhost:3000/reviews/<reviewId>` listing all the instances repeating the claim or content, all the social media accounts having spread it. If there is time, possibility of he user to add an other appearance.
 
   <img
@@ -36,9 +38,7 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
     width="50%"
   />
 
-<div/>
-
-qsdqd
+---
 
 ## Design inspiration
 
