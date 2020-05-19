@@ -8,46 +8,46 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
 
 - A welcome/search page allowing users to search the reviews by keywords on `http://localhost:3000/reviews?keywords=<keywords>`:
 <p align="center">
-  <kdb>
+  <kbd>
     <img
       alt="reviews"
       src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews.png"
       width="60%"
     />
-  </kdb>
+  </kbd>
 </p>
 
 - A welcome/search page allowing users to search the reviews by keywords on `http://localhost:3000/reviews?keywords=<keywords>`:  
 <p align="center">
-  <kdb>
+  <kbd>
   <img
     alt="reviews with keywords"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews_with_keywords.png"
     width="60%"
   />
-  </kdb>
+  </kbd>
 </p>
 
 - A Page template for each review `http://localhost:3000/reviews/<reviewId>` listing all the instances repeating the claim or content, all the social media accounts having spread it:
 <p align="center">
-  <kdb>
+  <kbd>
   <img
     alt="review"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/review.png"
     width="60%"
   />
-  </kdb>
+  </kbd>
 </p>
 
 - If there is time, possibility of he user to add an other appearance:
 <p align="center">
-  <kdb>
+  <kbd>
   <img
     alt="review with appearance"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/review_with_appearance.png"
     width="60%"
   />
-  </kdb>
+  </kbd>
 </p>
 
 ## Design inspiration
