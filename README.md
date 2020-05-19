@@ -6,43 +6,75 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
 
 - A Flask API `http://localhost:80/reviews` that reads existing review database
 
----
 - A welcome/search page allowing users to search the reviews by keywords on `http://localhost:3000/reviews?keywords=<keywords>`:
+<p align="center">
   <img
-    align="right"
     alt="reviews"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews.png"
-    width="50%"
+    width="40%"
   />
----
+</p>
+
 - A welcome/search page allowing users to search the reviews by keywords on `http://localhost:3000/reviews?keywords=<keywords>`:  
+<p align="center">
   <img
-    align="right"
     alt="reviews with keywords"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews_with_keywords.png"
-    width="50%"
+    width="40%"
   />
----
+</p>
+
 - A Page template for each review `http://localhost:3000/reviews/<reviewId>` listing all the instances repeating the claim or content, all the social media accounts having spread it:
+<p align="center">
   <img
-    align="right"
     alt="review"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/review.png"
-    width="50%"
+    width="40%"
   />
----
+</p>
+
 - If there is time, possibility of he user to add an other appearance:
+<p align="center">
   <img
-    align="right"
     alt="review with appearance"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/review_with_appearance.png"
-    width="50%"
+    width="40%"
   />
----
+</p>
 
 ## Design inspiration
 
 <img alt="design" src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/design.png" width="100%"/>
+
+## Model
+
+- Content Claim and appearance on:
+<p align="center">
+  <img
+    alt="reviews"
+    src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/ontology_1.png"
+    width="40%"
+  />
+</p>
+
+- Review:
+<p align="center">
+  <img
+    alt="reviews"
+    src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/ontology_2.png"
+    width="40%"
+  />
+</p>
+
+- Medium and Organization:
+<p align="center">
+  <img
+    alt="reviews"
+    src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/ontology_3.png"
+    width="40%"
+  />
+</p>
+
 
 ## Tech tasks
 
