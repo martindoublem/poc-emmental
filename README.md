@@ -94,10 +94,13 @@ Respect the design of:
 
 ## Tech tasks
 
-- run a docker-compose of two containers: one for the python flask api, and one for the postgres
+Please fill the TBW placeholders while:
 
-- use ./poc start
+  - run a docker-compose of two containers: one for the python flask api, and one for the postgres
+    use ./poc start
 
-- write api/app.py and TBW backend
+  - write models and call ./poc sandbox
 
-- write webapp
+  - write api reviews route feature
+
+  - write webapp features
