@@ -1,0 +1,25 @@
+#!/bin/bash
+
+CMD="$1"
+
+if [[ "$CMD" == "bash" ]]; then
+  #TBW
+elif [[ "$CMD" == "build" ]]; then
+  docker-compose build
+elif [[ "$CMD" == "clean" || "$CMD" == "sandbox" ]]; then
+  #TBW
+elif [[ "$CMD" == "psql" ]]; then
+  #TBW
+elif [[ "$CMD" == "python" ]]; then
+  #TBW
+elif [[ "$CMD" == "rebuild" ]]; then
+  #TBW
+elif [[ "$CMD" == "rmdb" ]]; then
+	#TBW
+elif [[ "$CMD" == "restart" ]]; then
+  #TBW
+elif [[ "$CMD" == "start" ]]; then
+  docker-compose up
+elif [[ "$CMD" == "webapp" ]]; then
+  cd webapp && yarn install && yarn start
+fi
