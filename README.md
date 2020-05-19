@@ -11,12 +11,13 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
   <img
     alt="reviews"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews.png"
-    style="float:right;"
+    style="float:left;"
     width="50%"
   />
   <img
     alt="reviews with keywords"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews_with_keywords.png"
+    style="float:right;"
     width="50%"
   />
 
@@ -25,12 +26,13 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
   <img
     alt="review"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/review.png"
-    style="float:right;"
+    style="float:left;"
     width="50%"
   />
   <img
     alt="reviews with keywords"
-    src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews_with_appearance.png"
+    src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/review_with_appearance.png"
+    style="float:right;"
     width="50%"
   />
 
