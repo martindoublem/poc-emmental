@@ -11,7 +11,7 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
   <img
     alt="reviews"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews.png"
-    width="40%"
+    width="60%"
   />
 </p>
 
@@ -20,7 +20,7 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
   <img
     alt="reviews with keywords"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/reviews_with_keywords.png"
-    width="40%"
+    width="60%"
   />
 </p>
 
@@ -29,7 +29,7 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
   <img
     alt="review"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/review.png"
-    width="40%"
+    width="60%"
   />
 </p>
 
@@ -38,7 +38,7 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
   <img
     alt="review with appearance"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/review_with_appearance.png"
-    width="40%"
+    width="60%"
   />
 </p>
 
@@ -53,7 +53,7 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
   <img
     alt="reviews"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/ontology_1.png"
-    width="40%"
+    width="60%"
   />
 </p>
 
@@ -62,7 +62,7 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
   <img
     alt="reviews"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/ontology_2.png"
-    width="40%"
+    width="60%"
   />
 </p>
 
@@ -71,7 +71,7 @@ This is the emmental version of the poc building a tiny stack as our feedback-ma
   <img
     alt="reviews"
     src="https://raw.githubusercontent.com/feedback-news/poc-emmental/master/images/ontology_3.png"
-    width="40%"
+    width="60%"
   />
 </p>
 
