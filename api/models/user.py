@@ -5,6 +5,6 @@ from utils.db import Model
 
 class User(Model):
 
-    id = *TBW*
+    id = Column(String, primary_key=True)
 
-    email = *TBW*
+    email = Column(String)

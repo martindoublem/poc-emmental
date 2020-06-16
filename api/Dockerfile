@@ -2,4 +2,7 @@ FROM python:3.7
 
 ENV PYTHONUNBUFFERED 1
 
-*TBW*
+COPY . /opt/api
+
+RUN ls /opt/api
+RUN pip install -r /opt/api/requirements.txt

@@ -3,34 +3,43 @@ version: '3.2'
 services:
   api:
     build:
-      *TBW*
-    command: >
-      *TBW*
+      context: ./api
+      dockerfile: Dockerfile
+    # command: python app.py
     container_name: poc-api
     depends_on:
-      *TBW*
+      - apidb
     environment:
-      *TBW*
+      FLASK_APP: app.py
+      FLASK_ENV: production
+      PYTHONPATH: /opt/api
+      SQLALCHEMY_DATABASE_URI: postgresql://poc-user:poc-password@apidb/poc-emmental
     networks:
-      *TBW*
+      - joint
     ports:
-      *TBW*
+      - 80:80
     volumes:
-      - ./api:*TBW*
-
+      - ./api:/opt/api
+    restart: unless-stopped
+    
   apidb:
-    command: *TBW*
+    # command: *TBW*
     container_name: poc-apidb
     environment:
-      *TBW*
+        - POSTGRES_DB=poc-emmental
+        - POSTGRES_USER=poc-user
+        - POSTGRES_PASSWORD=poc-password
     image: postgres:10.1
     networks:
-      *TBW*
+      - joint
     volumes:
-      - "./docker_data/apidb:*TBW*"
+      - ./docker_data/apidb:/var/lib/postgresql/data
+    restart: unless-stopped
 
 networks:
-  *TBW*
+  joint:
+    driver: bridge
 
 volumes:
+  api:
   docker_data:
