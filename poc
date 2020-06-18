@@ -17,5 +17,5 @@ elif [[ "$CMD" == "rmdb" ]]; then
 elif [[ "$CMD" == "restart" ]]; then
   *TBW*
 elif [[ "$CMD" == "start" ]]; then
-  docker-compose up && python api/app.py
+  docker-compose up
 fi

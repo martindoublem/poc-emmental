@@ -16,11 +16,11 @@ def setup(flask_app,
           with_routes=False):
 
     flask_app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('POSTGRES_URL')
-    *TBW*
+    flask_app.config['ENV'] = os.environ.get('FLASK_ENV')
+    flask_app.config['PORT'] = os.environ.get('PORT')
+    flask_app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     db.init_app(flask_app)
-
-    *TBW*
 
     import_models(with_creation=with_models_creation)
 

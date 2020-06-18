@@ -4,5 +4,4 @@ ENV PYTHONUNBUFFERED 1
 
 COPY . /opt/api
 
-RUN ls /opt/api
 RUN pip install -r /opt/api/requirements.txt
