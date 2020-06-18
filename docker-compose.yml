@@ -5,23 +5,24 @@ services:
     build:
       context: ./api
       dockerfile: Dockerfile
-    command: bash -c "set -x; cd /opt/api; while true; do python app.py; done;"
+    command: > 
+      bash -c "set -x;
+      cd /opt/api;
+      while true;
+      do python app.py;
+      done;"
     container_name: poc-api
     depends_on:
       - apidb
     environment:
-      FLASK_APP: app.py
-      FLASK_ENV: development
-      PORT: 80
-      PYTHONPATH: /opt/api
-      SQLALCHEMY_DATABASE_URI: postgresql://poc-user:poc-password@apidb/poc-emmental
+      - SECRET_KEY='d08dab72ebdac6edf0aefed7a9368ff9'
+      - POSTGRES_URL=postgresql://poc-user:poc-password@apidb/poc-emmental
     networks:
       - joint
     ports:
       - 80:80
     volumes:
       - ./api:/opt/api
-      - ./docker_data/apidb:/var/lib/postgresql/data
     restart: always
     
   apidb:
@@ -35,7 +36,7 @@ services:
     networks:
       - joint
     volumes:
-      - ./docker_data/apidb:/var/lib/postgresql/data
+      - "./docker_data/apidb:/var/lib/postgresql/data"
     restart: always
 
 networks:
@@ -43,5 +44,4 @@ networks:
     driver: bridge
 
 volumes:
-  api:
   docker_data:

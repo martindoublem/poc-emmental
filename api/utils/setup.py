@@ -1,8 +1,9 @@
 # pylint: disable=W0612
 # pylint: disable=W0613
 
-import os
+
 from flask_script import Manager
+from os import environ
 
 from models import import_models
 from routes import import_routes
@@ -15,13 +16,13 @@ def setup(flask_app,
           with_scripts_manager=False,
           with_routes=False):
 
-    flask_app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('POSTGRES_URL')
-    flask_app.config['ENV'] = os.environ.get('FLASK_ENV')
-    flask_app.config['PORT'] = os.environ.get('PORT')
+    flask_app.config['SECRET_KEY'] = environ.get('SECRET_KEY')
+    flask_app.config['SQLALCHEMY_DATABASE_URI'] = environ.get('POSTGRES_URL')
     flask_app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     db.init_app(flask_app)
 
+    flask_app.app_context().push()
     import_models(with_creation=with_models_creation)
 
     if with_routes:
